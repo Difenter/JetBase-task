@@ -1,0 +1,12 @@
+{
+  "name": "jetbase-test-task",
+  "version": "0.0.1",
+  "author": "Afonkin Denis",
+  "scripts": {
+    "dev": "cross-env npm run build:server && medusa develop",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
