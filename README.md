@@ -1,4 +1,4 @@
-# Finding Two Missing Numbers in a Sequence
+# Finding two missing numbers in a sorted array of numbers
 
 ## Problem Statement
 Given a sorted sequence of numbers ranging from 1 to \( N \) (where \( N \) can be very large, up to 10 billion), two numbers are missing from this sequence. The task is to find these two missing numbers using an optimal approach.
@@ -48,9 +48,8 @@ const findMissingNumbers = (arr) => {
 }
 
 // Example usage
-const N = 10;
 const arr = [1, 2, 4, 5, 6, 7, 8, 10]; // Example with 2 missing numbers
-console.log(findMissingNumbers(arr, N)); // [3, 9]
+console.log(findMissingNumbers(arr)); // [3, 9]
 ```
 
 ## Computational Complexity
