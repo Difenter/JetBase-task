@@ -13,7 +13,8 @@ We will use the mathematical properties of the sequence, specifically leveraging
 ### Implementation
 
 ```javascript
-const findMissingNumbers = (arr, n) => {
+const findMissingNumbers = (arr) => {
+  const n = arr.at(-1)
   const expectedSum = (n * (n + 1)) / 2;
 
   const expectedSumSquares = (n * (n + 1) * (2 * n + 1)) / 6;
